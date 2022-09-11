@@ -1,0 +1,70 @@
+:root{
+    --cor-fondo-general: white;
+    --cor-fondo-opcional: #EAF2FD;
+    --cor-de-boton-hover: #2A7AE4;
+    --cor-de-boton-active: rgb(0, 21, 255);
+    --cor-de-logo-st: #2A7AE4;
+    --cor-de-logo-nd: black;
+}
+.main{
+    background-color: var(--cor-de-fondo-genral);
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.stuffcontainer{
+    width: 100vw;
+    height: 31vh;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.products__table{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.publicaciones{
+    width: 100vw;
+    height: 20vh;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    background-color: none;
+    width: 15vw;
+    min-width: 150px;
+    height: 30vh;
+    min-height: 150px;
+    align-items: center;
+    margin: auto;
+    display: flexbox;
+    justify-content: space-around;
+    flex-direction: column;
+    border-color: black;
+    border-style: groove;
+    border-width: 0.1rem;
+    border-radius: 0%;
+
+}
+.precio{
+    background-color: #2A7AE4;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    text-align: left;
+}
+@media (max-width: 799px) {
+    
+    
+}

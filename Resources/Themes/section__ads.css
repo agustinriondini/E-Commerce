@@ -1,0 +1,69 @@
+:root{
+    --cor-de-fondo-general: #FFFFFF;
+    --cor-de-fondo-genral-alt: #EAF2FD;
+    --cor-de-titulos: #464646;
+    --cor-de-titulos-alt: blue;
+    --cor-de-botones: #FFFFFF;
+    --cor-de-botones-alt: #2A7AE4;
+    --cor-de-texto: #464646;
+    --cor-logo-st: #2A7AE4;
+    --cor-logo-nd: #464646;
+    --cor-search-engine: #F5F5F5;
+}
+.ads{
+    display: flexbox;
+    width: 100vw;
+    height: 40vh;
+}
+
+.in__ads__container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/ads/adsart.jpg);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.ads__title{
+    color: var(--cor-de-fondo-general);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem auto;
+    align-items: left;
+    display: flex;
+}
+
+.ads__promo{
+    color: var(--cor-de-fondo-general);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 1rem auto;
+    display: flex;
+}
+.promo__btn{
+    width: 6rem;
+    max-width: 150px;
+    height: 3rem;
+    max-height: 75px;
+    margin: auto;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--cor-de-titulos);
+    border-radius: 25px;
+}
+
+.promo__btn:hover{
+    background-color: purple;
+    color: white;
+    text-decoration: underline;
+    box-shadow: 0.3rem 0.3rem 0.3rem violet;
+    transition: 1s;
+    border-radius: 25px;
+}

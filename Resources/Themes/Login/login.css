@@ -1,0 +1,80 @@
+.login__container{
+    width: 100vw;
+    height: 80vh;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.form__login__container{
+    width: 80vw;
+    height: 60vh;
+    display: flexbox;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.login__title{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin: auto;
+}
+.login__form{
+    width: 80%;
+    height: 80%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+.login__data_title{
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    margin: auto;
+}
+.login__data{
+    width: 50%;
+    min-width: 150px;
+    max-width: 600px;
+    height: 2rem;
+    min-height: 50px;
+    max-height: 200px;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit__btn{
+    width: 50%;
+    min-width: 150px;
+    max-width: 600px;
+    height: 2rem;
+    min-height: 50px;
+    max-height: 200px;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.cant__login{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+a{
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    margin: auto;
+}

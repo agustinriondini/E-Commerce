@@ -1,0 +1,27 @@
+:root{
+    --cor-de-fondo-general: #FFFFFF;
+    --cor-de-fondo-genral-alt: #EAF2FD;
+    --cor-de-titulos: #464646;
+    --cor-de-titulos-alt: blue;
+    --cor-de-botones: #FFFFFF;
+    --cor-de-botones-alt: #2A7AE4;
+    --cor-de-texto: #464646;
+    --cor-logo-st: #2A7AE4;
+    --cor-logo-nd: #464646;
+    --cor-search-engine: #F5F5F5;
+}
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem auto;
+    background-color: var(--cor-de-fondo-general);
+}
+.footer__info{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    line-height: 1rem;
+}
